@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Sansita+Swashed:wght@300&display=swap");
+body {
+  background-color: black;
+}
+
+#Navbar #Link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#CompJumbotron {
+  background: url("https://ak.picdn.net/shutterstock/videos/1008906254/thumb/1.jpg") top center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#CompJumbotron h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+#CompJumbotron p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+#CompJumbotron Button {
+  letter-spacing: 2px;
+  background: transparent;
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+
+#CompJumbotron Button:hover {
+  background-color: turquoise;
+  color: blue;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#NavbarBrand {
+  font-family: 'Chewy', cursive;
+  letter-spacing: 2px;
+  text-shadow: 0 3px black;
+}
+
+#CompBoxJumbotrons {
+  width: 100%;
+}
+
+#CompBoxJumbotrons #CardCompBoxIcon {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: 2px solid #74a7ff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#CompBoxJumbotrons #CardCompBoxIcon:hover {
+  background-color: fuchsia;
+}
+
+#CompBoxJumbotrons Button {
+  letter-spacing: 0px;
+  background-color: yellow;
+  color: darkblue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

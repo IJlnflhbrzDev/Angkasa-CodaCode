@@ -1,12 +1,37 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './style/style.css';
 import * as serviceWorker from './serviceWorker';
+import CompHomes from './Home-Pages/Home';
+import CompNavbars from './ComponentNavbar/CompNavbar';
+import Componentss from './App';
+import { Button, Jumbotron } from 'reactstrap';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link, BrowserRouter
+} from "react-router-dom";
+import CompHome from './Home-Pages/Home';
+import component from './App';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Fragment>
+        <div>
+          < CompNavbars />
+        </div>
+        <Route path="/hello" exact component={CompHome} />
+
+        <Route path="/component" component={Componentss} />
+
+
+      </Fragment>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
