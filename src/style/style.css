@@ -10,7 +10,7 @@ body {
 }
 
 #CompJumbotron {
-  background: url("https://ak.picdn.net/shutterstock/videos/1008906254/thumb/1.jpg") top center;
+  background: url("https://media1.popsugar-assets.com/files/thumbor/s8JbLAyJfjCEoYP-UlvIFw9mgIg/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/03/30/640/n/1922507/addurlnGUWt4/i/Tangled-Zoom-Background.jpg");
   background-size: cover;
   height: 100vh;
   text-align: center;
@@ -37,7 +37,7 @@ body {
 
 #CompJumbotron Button:hover {
   background-color: turquoise;
-  color: blue;
+  color: black;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
@@ -56,19 +56,17 @@ body {
   width: auto;
   height: auto;
   background-color: transparent;
-  border: 2px solid #74a7ff;
-  -webkit-transition: 1s;
-  transition: 1s;
+  border: 1px solid transparent;
 }
 
 #CompBoxJumbotrons #CardCompBoxIcon:hover {
-  background-color: fuchsia;
+  border: 1px solid #b9b9fa;
 }
 
 #CompBoxJumbotrons Button {
   letter-spacing: 0px;
   background-color: yellow;
-  color: darkblue;
+  color: seashell;
   font-weight: bold;
   margin-top: 10px;
 }

@@ -8,36 +8,35 @@ import { Alert, Jumbotron, Button, Container, Row, Col, Card, CardTitle, CardTex
 const BoxComponent = () => {
   return (
     <div id="CompBoxJumbotrons">
-      <Row >
-
-        <Col lg="3" sm="6" >
+      <Row>
+        <Col lg="3" sm="6" xs="6" >
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="red" animation="tada" size="lg" name='html5' type='logo' ></box-icon>
+              <box-icon color="red" animation="tada-hover" size="lg" name='html5' type='logo' ></box-icon>
             </div>
             <Button>HTML</Button>
           </Card>
         </Col>
-        <Col lg="3" sm="6">
+        <Col lg="3" sm="6" xs="6">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="blue" animation="tada" size="lg" name='css3' type='logo' ></box-icon>
+              <box-icon color="blue" animation="tada-hover" size="lg" name='css3' type='logo' ></box-icon>
             </div>
             <Button>CSS</Button>
           </Card>
         </Col>
-        <Col lg="3" sm="6">
+        <Col lg="3" sm="6" xs="6">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="yellowgreen" animation="tada" size="lg" name='javascript' type='logo' ></box-icon>
+              <box-icon color="yellowgreen" animation="tada-hover" size="lg" name='javascript' type='logo' ></box-icon>
             </div>
             <Button>JAVASCRIPT</Button>
           </Card>
         </Col>
-        <Col lg="3" sm="6">
+        <Col lg="3" sm="6" xs="6">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="purple" animation="tada" size="lg" name='bootstrap' type='logo' ></box-icon>
+              <box-icon color="purple" animation="tada-hover" size="lg" name='bootstrap' type='logo' ></box-icon>
             </div>
             <Button>BOOTSTRAP</Button>
           </Card>
