@@ -7,12 +7,17 @@ import { Alert, Jumbotron, Button, Container, Row, Col, Card, CardTitle, CardTex
 
 const BoxComponent = () => {
   return (
-    <div id="CompBoxJumbotrons">
+    <div id="CompBoxJumbotrons" >
+      <Row>
+        <Col>
+          <h2 className="mb-2">Selamat Datang Kamu</h2>
+        </Col>
+      </Row>
       <Row>
         <Col xl="3" sm="6" xs="12" >
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="red" animation="tada-hover" size="lg" name='html5' type='logo' ></box-icon>
+              <box-icon color="red" animation="tada" size="lg" name='html5' type='logo' ></box-icon>
             </div>
             <Button>HTML</Button>
           </Card>
@@ -20,7 +25,7 @@ const BoxComponent = () => {
         <Col lg="3" sm="6" xs="12">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="blue" animation="tada-hover" size="lg" name='css3' type='logo' ></box-icon>
+              <box-icon color="blue" animation="tada" size="lg" name='css3' type='logo' ></box-icon>
             </div>
             <Button>CSS</Button>
           </Card>
@@ -28,7 +33,7 @@ const BoxComponent = () => {
         <Col lg="3" sm="6" xs="12">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="yellowgreen" animation="tada-hover" size="lg" name='javascript' type='logo' ></box-icon>
+              <box-icon color="yellowgreen" animation="tada" size="lg" name='javascript' type='logo' ></box-icon>
             </div>
             <Button>JAVASCRIPT</Button>
           </Card>
@@ -36,7 +41,7 @@ const BoxComponent = () => {
         <Col lg="3" sm="6" xs="12">
           <Card id="CardCompBoxIcon" body>
             <div className="text-center">
-              <box-icon color="purple" animation="tada-hover" size="lg" name='bootstrap' type='logo' ></box-icon>
+              <box-icon color="purple" animation="tada" size="lg" name='bootstrap' type='logo' ></box-icon>
             </div>
             <Button>BOOTSTRAP</Button>
           </Card>
@@ -53,7 +58,7 @@ class CompJumbotron extends React.Component {
     return (
 
 
-      <Jumbotron id="CompJumbotron" className="d-flex align-items-center flex-column">
+      <Jumbotron id="CompJumbotron" className="d-flex align-items-center flex-column justify-content-center">
         <Row>
           <div id="CompBoxJumbotrons_Content">
             <Col>
@@ -61,15 +66,14 @@ class CompJumbotron extends React.Component {
               <hr className="my-2 mt-3" color="text-primary" />
               <p className="lead">Jangan tunggu nanti, tanamlah sekarang biar cepat panen!</p>
               <p className="lead">
-                <Button className="border-fuchsia">Learn More!</Button>
+
               </p>
             </Col>
 
           </div>
         </Row>
-        <Container>
-          <BoxComponent />
-        </Container>
+
+        <BoxComponent />
       </Jumbotron>
 
 

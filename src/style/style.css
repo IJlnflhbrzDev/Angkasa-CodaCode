@@ -10,11 +10,8 @@ body {
 }
 
 #CompJumbotron {
-  background: url("https://media1.popsugar-assets.com/files/thumbor/s8JbLAyJfjCEoYP-UlvIFw9mgIg/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/03/30/640/n/1922507/addurlnGUWt4/i/Tangled-Zoom-Background.jpg");
-  -webkit-filter: opacity(0.5);
-          filter: opacity(0.5);
-  background-size: cover;
-  height: 100vh;
+  background: url("https://i.pinimg.com/originals/d4/50/46/d45046e41834c800c2392f2c2a4425e6.jpg");
+  height: auto;
   text-align: center;
 }
 
@@ -77,6 +74,12 @@ body {
 }
 
 @media (max-width: 577px) {
+  #CardCompBoxIcon {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
   #CardCompBoxIcon {
     display: none;
   }

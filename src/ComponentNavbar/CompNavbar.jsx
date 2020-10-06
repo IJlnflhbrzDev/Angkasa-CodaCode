@@ -29,7 +29,7 @@ const CompNavbar = (props) => {
 
   return (
 
-    <Navbar color="info" expand="md" id="Navbar">
+    <Navbar color="info" dark expand="md" id="Navbar">
       <Container>
         <NavbarBrand id="NavbarBrand" href="/hello">DeveloperKids</NavbarBrand>
         <NavbarToggler onClick={toggle} />
