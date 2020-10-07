@@ -8,11 +8,7 @@ import { Alert, Jumbotron, Button, Container, Row, Col, Card, CardTitle, CardTex
 const BoxComponent = () => {
   return (
     <div id="CompBoxJumbotrons" >
-      <Row>
-        <Col>
-          <h2 className="mb-2">Selamat Datang Kamu</h2>
-        </Col>
-      </Row>
+
       <Row>
         <Col xl="3" sm="6" xs="12" >
           <Card id="CardCompBoxIcon" body>

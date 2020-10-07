@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sansita+Swashed:wght@300&display=swap');
-
+h1 , h2 , h3 {
+  font-family: 'Sansita Swashed', cursive;
+}
 body{
-  background-color: black;
-  
+  background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
+
 }
 
+
 #Navbar {
+  background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
+  color: initial;
+
   #Link{
     color: whitesmoke ;
     text-decoration: none;
@@ -15,12 +21,11 @@ body{
 }
 
 #CompJumbotron{
-  background: url('https://i.pinimg.com/originals/d4/50/46/d45046e41834c800c2392f2c2a4425e6.jpg');
-  // filter: opacity(0.5);
-  // background-size: cover;
-  // background-position: center;
-  height: auto;
+  background: url('https://i.pinimg.com/originals/d4/50/46/d45046e41834c800c2392f2c2a4425e6.jpg') no-repeat;
+  height: 100vh;
   text-align: center;
+  background-attachment: fixed;
+  box-sizing: border-box;
  
   h1{
     color: white;
@@ -81,8 +86,39 @@ body{
   
 }
 
+#CompService {
+ 
+  background: url( 'https://i.pinimg.com/originals/c9/bc/98/c9bc987940c4fca69fc9047ebbd61e9c.gif') ;
+  background-attachment: fixed;
+  z-index: -99999;
+  background-size: cover;
+  
+  .card{
+    padding: 2%;
+    background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
+    color: white;
+    opacity: 0.5;
+    transition: all 1.2s ease-in-out;
+    overflow: hidden;
+    
+    
+    .card-img-top{
+      width: 100%;
+      height: 200px;
+    }
+    
+    .card-body{
+      height: 100px;
+    }
 
+    
+  }
+            .card:hover {
+              opacity: 0.9;
 
+              transition: all 0.1s ease-out;
+            }
+}
 
 // Responsive Breakpoint : 
 

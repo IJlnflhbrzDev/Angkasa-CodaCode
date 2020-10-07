@@ -1,7 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chewy&family=Sansita+Swashed:wght@300&display=swap");
+h1, h2, h3 {
+  font-family: 'Sansita Swashed', cursive;
+}
+
 body {
-  background-color: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a91409), to(#0a6ab6));
+  background-image: linear-gradient(to right, #a91409, #0a6ab6);
+}
+
+#Navbar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#a91409), to(#0a6ab6));
+  background-image: linear-gradient(to right, #a91409, #0a6ab6);
+  color: initial;
 }
 
 #Navbar #Link {
@@ -10,9 +21,12 @@ body {
 }
 
 #CompJumbotron {
-  background: url("https://i.pinimg.com/originals/d4/50/46/d45046e41834c800c2392f2c2a4425e6.jpg");
-  height: auto;
+  background: url("https://i.pinimg.com/originals/d4/50/46/d45046e41834c800c2392f2c2a4425e6.jpg") no-repeat;
+  height: 100vh;
   text-align: center;
+  background-attachment: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #CompJumbotron h1 {
@@ -71,6 +85,39 @@ body {
   color: seashell;
   font-weight: bold;
   margin-top: 10px;
+}
+
+#CompService {
+  background: url("https://i.pinimg.com/originals/c9/bc/98/c9bc987940c4fca69fc9047ebbd61e9c.gif");
+  background-attachment: fixed;
+  z-index: -99999;
+  background-size: cover;
+}
+
+#CompService .card {
+  padding: 2%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a91409), to(#0a6ab6));
+  background-image: linear-gradient(to right, #a91409, #0a6ab6);
+  color: white;
+  opacity: 0.5;
+  -webkit-transition: all 1.2s ease-in-out;
+  transition: all 1.2s ease-in-out;
+  overflow: hidden;
+}
+
+#CompService .card .card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+#CompService .card .card-body {
+  height: 100px;
+}
+
+#CompService .card:hover {
+  opacity: 0.9;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 @media (max-width: 577px) {
