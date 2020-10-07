@@ -11,7 +11,7 @@ class CompService extends React.Component {
         <Container>
           <Row>
             <Col>
-              <h1 className=" mt-2 text-center text-white mb-5">Basic Untuk Junior Developer</h1>
+              <h1 className="font-weight-bold mt-2 text-center text-white mb-5">Basic Untuk Junior Developer</h1>
             </Col>
           </Row>
           <Row>

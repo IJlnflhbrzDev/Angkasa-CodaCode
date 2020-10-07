@@ -31,7 +31,7 @@ const CompNavbar = (props) => {
 
     <Navbar expand="md" id="Navbar">
       <Container>
-        <NavbarBrand id="NavbarBrand" href="/hello">DeveloperKids</NavbarBrand>
+        <NavbarBrand id="NavbarBrand" href="/hello">DeveloperAngkasa</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto " navbar>

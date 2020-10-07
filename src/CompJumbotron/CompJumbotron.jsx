@@ -58,7 +58,7 @@ class CompJumbotron extends React.Component {
         <Row>
           <div id="CompBoxJumbotrons_Content">
             <Col>
-              <h1 className="font-weight-bold text-white ">Belajar Budi Daya Code Bersama DeveloperKids</h1>
+              <h1 className="font-weight-bold text-white ">Belajar Budi Daya Code Bersama DeveloperAngkasa</h1>
               <hr className="my-2 mt-3" color="text-primary" />
               <p className="lead">Jangan tunggu nanti, tanamlah sekarang biar cepat panen!</p>
               <p className="lead">
