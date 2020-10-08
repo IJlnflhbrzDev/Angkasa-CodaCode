@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Sansita+Swashed:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 h1 , h2 , h3 {
   font-family: 'Sansita Swashed', cursive;
 }
@@ -7,7 +12,6 @@ body{
   background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
 
 }
-
 
 #Navbar {
   background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
@@ -29,14 +33,19 @@ body{
  
   h1{
     color: white;
+    background-color: #23AFFB;
+    padding: 6px;
+    opacity: 0.7;
     letter-spacing: 5px;
     font-family: 'Sansita Swashed', cursive;
-
+    text-shadow: 4px 0 red ;
+    border-radius: 100px 0 100px 0;
+    box-shadow: 5px 5px 5px orange;
   }
   p{
     font-size: 20px;
     color: white;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
   }
 
   Button{
@@ -89,9 +98,13 @@ body{
 #CompService {
  
   background: url( 'https://i.pinimg.com/originals/c9/bc/98/c9bc987940c4fca69fc9047ebbd61e9c.gif') ;
+  
   background-attachment: fixed;
-  z-index: -99999;
+  background-position: 800px;
   background-size: cover;
+  a{
+    text-decoration: none ;
+  }
   
   .card{
     padding: 2%;
@@ -100,6 +113,7 @@ body{
     opacity: 0.5;
     transition: all 1.2s ease-in-out;
     overflow: hidden;
+
     
     
     .card-img-top{
@@ -114,8 +128,7 @@ body{
     
   }
             .card:hover {
-              opacity: 0.9;
-
+              opacity: 1;
               transition: all 0.1s ease-out;
             }
 }
@@ -135,4 +148,12 @@ body{
     display: none;
   }
 
+ }
+
+
+ #CompLocation{
+   background-color: white;
+   h1{
+     color: black;
+   }
  }

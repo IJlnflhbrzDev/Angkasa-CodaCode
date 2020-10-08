@@ -1,6 +1,6 @@
 import React from 'react';
 import 'boxicons'
-import { Alert, Jumbotron, Button, Container, Row, Col, Card, CardTitle, CardText } from 'reactstrap';
+import { Jumbotron, Button, Row, Col, Card } from 'reactstrap';
 
 
 
@@ -62,10 +62,8 @@ class CompJumbotron extends React.Component {
               <hr className="my-2 mt-3" color="text-primary" />
               <p className="lead">Jangan tunggu nanti, tanamlah sekarang biar cepat panen!</p>
               <p className="lead">
-
               </p>
             </Col>
-
           </div>
         </Row>
 

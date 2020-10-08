@@ -1,32 +1,32 @@
 import React, { Fragment } from 'react';
+import './CustomElements/CustomScript'
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/style.css';
 import * as serviceWorker from './serviceWorker';
 import CompHomes from './Home-Pages/Home';
 import CompNavbars from './ComponentNavbar/CompNavbar';
+import ComponentLis from './ComponentList/CompListHtml'
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import PengenalanHtml from './ComponentList/HTML/CompengenalanHtml'
 
-
-import { BrowserRouter as Router, Switch, Route, Link, BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <Fragment>
         <div>
-          < CompNavbars />
+          <CompNavbars />
         </div>
         <Route path="/hello" exact component={CompHomes} />
-        \
+        <Route path="/list-learn-html" exact component={ComponentLis} />
+        <Route path="/learn-html" exact component={PengenalanHtml} />
+
 
 
       </Fragment>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

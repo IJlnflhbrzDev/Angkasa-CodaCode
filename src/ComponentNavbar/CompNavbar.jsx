@@ -11,13 +11,11 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText, Container
+  Container
 } from 'reactstrap';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link, BrowserRouter
+
+  Link,
 } from "react-router-dom";
 
 
@@ -29,7 +27,7 @@ const CompNavbar = (props) => {
 
   return (
 
-    <Navbar expand="md" id="Navbar">
+    <Navbar expand="md" dark id="Navbar">
       <Container>
         <NavbarBrand id="NavbarBrand" href="/hello">DeveloperAngkasa</NavbarBrand>
         <NavbarToggler onClick={toggle} />
@@ -62,6 +60,9 @@ const CompNavbar = (props) => {
                   <Link to="/list-learn-javascript">JAVASCRIPT</Link>
                 </DropdownItem>
                 <DropdownItem divider />
+                <DropdownItem>
+                  <Link to="/list-learn-bootstrapt">BOOTSTRAP</Link>
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
