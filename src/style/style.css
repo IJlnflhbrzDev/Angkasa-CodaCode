@@ -40,7 +40,8 @@ html, body {
 
 #CompJumbotron h1 {
   color: white;
-  background-color: #23AFFB;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a91409), to(#0a6ab6));
+  background-image: linear-gradient(to right, #a91409, #0a6ab6);
   padding: 6px;
   opacity: 0.7;
   letter-spacing: 5px;

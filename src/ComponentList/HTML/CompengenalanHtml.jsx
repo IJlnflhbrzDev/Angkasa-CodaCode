@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Jumbotron, Container, CardText, Card, CardImg, } from 'reactstrap'
+import { Jumbotron, Container, CardText, Card, } from 'reactstrap'
 import { Link } from 'react-router-dom'
 const a = [` <title> - <p> - <li> - dan - <h1> sampai - <h6> `];
 const draf = [`[Draft]`];
@@ -161,7 +161,7 @@ class PengenalanHtml extends React.Component {
               <p>Nah, sampai di sini dulu tutorial pertama ini..</p>
               <p>Jika ada yang belum jelas, bisa ditanyakan melalui komentar.</p>
               <p>Berikutnya silahkan pelajari tentang definisi tag, elemen, dan atribut:</p>
-              <Card className="p-2  d-flex font-italic mb-4 m-2">Untuk tutorial HTML lainnya, silahkan cek d <code style={{ fontSize: '20px ', letterSpacing: '3px', marginTop: '-10px', textAlign: ' center' }}><Link to="/List-Belajar-html">List-Belajar-html</Link> </code></Card>
+              <Card className="p-2  d-flex font-italic mb-4 m-2">Untuk tutorial HTML lainnya, silahkan cek d <code style={{ fontSize: '20px ', letterSpacing: '3px', marginTop: '-10px', textAlign: ' center' }}><Link to="/list-learn-html">List-Belajar-html</Link> </code></Card>
               <blockquote>Babaii Sampai Ketemu di Tutorial Berikut nya .......</blockquote>
             </div>
           </Container>

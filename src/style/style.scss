@@ -18,11 +18,12 @@ html , body {
 #Navbar {
   background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
   color: initial;
+  
 
   #Link{
     color: whitesmoke ;
     text-decoration: none;
-
+    
   }
 }
 
@@ -35,7 +36,7 @@ html , body {
  
   h1{
     color: white;
-    background-color: #23AFFB;
+    background-image: linear-gradient(to right, rgb(169, 20, 9), rgb(10, 106, 182));
     padding: 6px;
     opacity: 0.7;
     letter-spacing: 5px;
@@ -47,7 +48,7 @@ html , body {
   p{
     font-size: 20px;
     color: white;
-    // margin-bottom: 30px;
+   
   }
 
   Button{

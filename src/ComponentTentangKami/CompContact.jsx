@@ -20,21 +20,21 @@ export default function CompContact() {
           <Row>
             <Col xl="6" md="12 mb-2" xs="12 mb-1">
               <Card className="font-weight-bold text-center d-block p-2  ">
-                <box-icon name='map' size="md" color="blue" type='solid' ></box-icon>
-                <h2>Our Adress</h2>
+                <box-icon name='current-location' size="lg" animation="spin" color="green" type='solid' ></box-icon>
+                <h2>Our Location</h2>
                 <p className="mt-4 font-italic">71520 Cibitung City, INDONESIA  </p>
               </Card>
             </Col>
             <Col xl="3" md="6" xs="12 mb-1">
               <Card className="font-weight-bold text-center d-block p-2  ">
-                <box-icon type='solid' color="white" name='message-detail' size="md"></box-icon>
+                <box-icon type='solid' color="green" name='message-detail' animation="flashing" size="lg"></box-icon>
                 <h2 className="mt-1">Email Us</h2>
                 <p className="mt-4">IJlnflhbrzDev@gmail.com</p>
               </Card>
             </Col>
             <Col xl="3" md="6" xs="12 mb-2">
               <Card className="font-weight-bold text-center d-block p-2  ">
-                <box-icon type='solid' color="yellow" name="map" size="md"></box-icon>
+                <box-icon name='phone-call' size="lg" color="green" animation="tada"></box-icon>
                 <h2 className="mt-1">Call Us</h2>
                 <p className="mt-4">+628 9673 584023</p>
               </Card>
@@ -45,7 +45,7 @@ export default function CompContact() {
 
             <Col xl="6 " md="6" xs="12">
               <div id="CompIframe" className="embed-responsive embed-responsive-16by9 align-self-center">
-                <iframe className="embed-responsive-item" src="https://github.com/IJlnflhbrzDev/IJlnflhbrzDev-Cv" allowFullScreen></iframe>
+                <iframe className=" embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.9944976943734!2d107.08545711476934!3d-6.264452695465736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f9325bf1061%3A0x27cdbdd58bcac8d4!2sJl.%20Nona%20Merah%2C%20Bekasi%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1602234900101!5m2!1sid!2sid" allowFullScreen></iframe>
               </div>
             </Col>
             <Col xl="6" md="6" xs="12" className="p-3">

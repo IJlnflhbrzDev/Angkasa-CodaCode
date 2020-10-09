@@ -42,11 +42,7 @@ const CompNavbar = () => {
                 <Link id="Link" to="/hello">Home</Link>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink>
-                <Link id="Link" to="/tentang-kami">TentangDeveloper</Link>
-              </NavLink>
-            </NavItem>
+
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Tutorial
