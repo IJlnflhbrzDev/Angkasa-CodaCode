@@ -15,9 +15,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Fragment>
-        <div>
-          <CompNavbars />
-        </div>
+
+        <CompNavbars />
         <Route path="/hello" exact component={CompHomes} />
         <Route path="/list-learn-html" exact component={ComponentLis} />
         <Route path="/learn-html" exact component={PengenalanHtml} />

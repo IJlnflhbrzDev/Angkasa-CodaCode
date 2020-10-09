@@ -11,7 +11,9 @@ h1, h2, h3 {
   font-family: 'Sansita Swashed', cursive;
 }
 
-body {
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
   background-image: -webkit-gradient(linear, left top, right top, from(#a91409), to(#0a6ab6));
   background-image: linear-gradient(to right, #a91409, #0a6ab6);
 }
@@ -101,7 +103,7 @@ body {
 }
 
 #CompService {
-  background: url("https://i.pinimg.com/originals/c9/bc/98/c9bc987940c4fca69fc9047ebbd61e9c.gif");
+  background: url("https://wallpaperaccess.com/full/1314405.jpg");
   background-attachment: fixed;
   background-position: 800px;
   background-size: cover;
@@ -149,11 +151,15 @@ body {
   }
 }
 
-#CompLocation {
-  background-color: white;
+#CompTentangKami {
+  background: url("https://media.istockphoto.com/vectors/shining-atom-model-neon-orbit-with-galaxy-blue-background-vector-id1227389205?k=6&m=1227389205&s=170667a&w=0&h=2dKXWQpks3WRGL-9IEzx-Sw2U4M6HyMiRXvaEahfE0A=");
+  background-position: center;
+  background-size: cover;
 }
 
-#CompLocation h1 {
-  color: black;
+@media screen and (min-width: 768px) {
+  #CompIframe {
+    height: 340px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

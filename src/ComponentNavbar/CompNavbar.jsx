@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'boxicons'
 import {
   Collapse,
   Navbar,
@@ -20,7 +21,7 @@ import {
 
 
 
-const CompNavbar = (props) => {
+const CompNavbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -29,7 +30,10 @@ const CompNavbar = (props) => {
 
     <Navbar expand="md" dark id="Navbar">
       <Container>
-        <NavbarBrand id="NavbarBrand" href="/hello">DeveloperAngkasa</NavbarBrand>
+        <NavbarBrand id="NavbarBrand" href="CompTentangKami">
+          DeveloperAngkasa
+        </NavbarBrand>
+
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto " navbar>
@@ -40,7 +44,7 @@ const CompNavbar = (props) => {
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link id="Link" to="/tentang-kami">TentangKami</Link>
+                <Link id="Link" to="/tentang-kami">TentangDeveloper</Link>
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
